@@ -277,7 +277,7 @@
       "borderColor": "#FF858283",
       "groupId": "ga",
       "id": "a-fl",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/mono-flac.png",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/flac.png",
       "isEnabled": true,
       "name": "FLAC",
       "pattern": "(?i)\\bflac\\b",
