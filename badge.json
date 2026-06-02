@@ -17,7 +17,7 @@
       "borderColor": "#FF858283",
       "groupId": "gr",
       "id": "r-1080",
-      "imageURL": "https://github.com/Brenzligklinge94/Nuvio-Badge/blob/main/images/1080p.png",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/BetterFormatter/main/images/1080p.png",
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)\\b1080[pi]?\\b",
