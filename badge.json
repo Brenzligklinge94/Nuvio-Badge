@@ -2,6 +2,19 @@
   "filters": [
     {
       "borderColor": "#FF858283",
+      "groupId": "gv",
+      "id": "v-seadex",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/mono-SeaDex.png",
+      "isEnabled": true,
+      "name": "SeaDex",
+      "pattern": "(?i)\\b(?:seadex|best[\\s._-]?release|alt[\\s._-]?(?:best[\\s._-]?)?release)\\b|ᴀʟᴛ ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
       "groupId": "gr",
       "id": "r-4k",
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/4k.png",
@@ -73,19 +86,6 @@
       "isEnabled": true,
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
-      "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-seadex",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/mono-SeaDex.png",
-      "isEnabled": true,
-      "name": "SeaDex",
-      "pattern": "(?i)\\b(?:seadex|best[\\s._-]?release|alt[\\s._-]?(?:best[\\s._-]?)?release)\\b|ᴀʟᴛ ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
