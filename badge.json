@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "borderColor": "#FF00FF37",
+      "borderColor": "#FF858283",
       "color": "#27C04F",
       "id": "gq",
       "isExpanded": true,
@@ -46,7 +46,7 @@
       "name": "Remux",
       "pattern": "(?i)\\bremux\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -59,7 +59,7 @@
       "name": "BluRay",
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -72,7 +72,7 @@
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -85,7 +85,7 @@
       "name": "4K",
       "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -98,7 +98,7 @@
       "name": "1080p",
       "pattern": "(?i)(?<!\\d)1080(?!\\d)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -111,7 +111,7 @@
       "name": "720p",
       "pattern": "(?i)(?<!\\d)720(?!\\d)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -125,7 +125,7 @@
       "tagColor": "#33FFFFFF",
       "borderColor": "#FF858283",
       "textColor": "#FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "type": "filter"
     },
     {
@@ -137,7 +137,7 @@
       "name": "SeaDex",
       "pattern": "(?i)\\b(?:seadex|best[\\s._-]?release|alt[\\s._-]?(?:best[\\s._-]?)?release)\\b|ᴀʟᴛ ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -150,7 +150,7 @@
       "name": "HDR10+",
       "pattern": "(?i)^(?=.*hdr[\\s._-]?10[\\s._-]?(?:\\\\+|plus|p))",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -163,7 +163,7 @@
       "name": "HDR10",
       "pattern": "(?i)^(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -176,7 +176,7 @@
       "name": "HDR",
       "pattern": "(?i)^(?=.*\\bhdr\\b)(?!.*hdr[\\s._-]?10(?:[\\s._-]?(?:\\+|plus|p))?)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -189,7 +189,7 @@
       "name": "IMAX Enhanced",
       "pattern": "(?i)\\bimax[\\s._-]?enhanced\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -202,7 +202,7 @@
       "name": "IMAX",
       "pattern": "(?i)^(?=.*\\bIMAX\\b)(?!.*enhanced)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -215,7 +215,7 @@
       "name": "DV",
       "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -228,7 +228,7 @@
       "name": "DTS:X",
       "pattern": "(?i)\\bdts[-_.: ]?x\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -241,7 +241,7 @@
       "name": "DTS-HD MA",
       "pattern": "(?i)^(?=.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -254,7 +254,7 @@
       "name": "DTS-HD",
       "pattern": "(?i)^(?=.*\\bdts[-_. ]?hd\\b)(?!.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -267,7 +267,7 @@
       "name": "DTS",
       "pattern": "(?i)^(?=.*\\bDTS\\b)(?!.*\\bdts[-_. ]?(?:hd|ma|xll|x)\\b)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -280,7 +280,7 @@
       "name": "Atmos",
       "pattern": "(?i)\\batmos\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -293,7 +293,7 @@
       "name": "TrueHD",
       "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -306,7 +306,7 @@
       "name": "DD+",
       "pattern": "(?i)^(?=.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\batmos\\b)(?!.*\\btrue[\\s._-]?hd\\b)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -319,7 +319,7 @@
       "name": "DD",
       "pattern": "(?i)^(?=.*\\b(?:dd[25][. ][01]|dd[^p+a-z]\\b|\\bac-?3)\\b)(?!.*(?:\\bddp|\\bdd\\+|\\beac-?3|\\be-?ac-?3))(?!.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -332,7 +332,7 @@
       "name": "FLAC",
       "pattern": "(?i)\\bflac\\b",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -345,7 +345,7 @@
       "name": "7.1",
       "pattern": "[^0-9][7-8][. ][01](?![0-9])",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -358,7 +358,7 @@
       "name": "5.1",
       "pattern": "^(?=.*[^0-9]5[. ][01](?![0-9]))(?!.*[^0-9][7-8][. ][01](?![0-9]))",
       "tagColor": "#33FFFFFF",
-      "tagStyle": "filled",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     }
