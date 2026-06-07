@@ -109,7 +109,7 @@
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-webdl.png",
       "isEnabled": true,
       "name": "WebDL",
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
+      "pattern": "(?i)\\b(?:web(?:[-_. ]?dl)?)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
