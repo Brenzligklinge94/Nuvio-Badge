@@ -77,7 +77,7 @@
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/4k.png",
       "isEnabled": true,
       "name": "4K",
-      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "pattern": "(?i)^(?=.*(?:2160[pi]?|3840|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
