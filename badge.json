@@ -2,17 +2,17 @@
   "groups": [
     {
       "borderColor": "#FF858283",
-      "color": "#27C04F",
-      "id": "gq",
-      "isExpanded": true,
-      "name": "Quality"
-    },
-    {
-      "borderColor": "#FF858283",
       "color": "#FFBE01",
       "id": "gr",
       "isExpanded": true,
       "name": "Resolution"
+    },
+    {
+      "borderColor": "#FF858283",
+      "color": "#27C04F",
+      "id": "gq",
+      "isExpanded": true,
+      "name": "Quality"
     },
     {
       "borderColor": "#FF858283",
@@ -37,45 +37,6 @@
     }
   ],
   "filters": [
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gq",
-      "id": "q-r",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-remux.png",
-      "isEnabled": true,
-      "name": "Remux",
-      "pattern": "(?i)\\bremux\\b",
-      "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gq",
-      "id": "q-b",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-bluray.png",
-      "isEnabled": true,
-      "name": "BluRay",
-      "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
-      "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gq",
-      "id": "q-w",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-webdl.png",
-      "isEnabled": true,
-      "name": "WebDL",
-      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
-      "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
     {
       "borderColor": "#FF858283",
       "groupId": "gr",
@@ -110,6 +71,45 @@
       "isEnabled": true,
       "name": "720p",
       "pattern": "(?i)(?<!\\d)720(?!\\d)",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-r",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-remux.png",
+      "isEnabled": true,
+      "name": "Remux",
+      "pattern": "(?i)\\bremux\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-b",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-bluray.png",
+      "isEnabled": true,
+      "name": "BluRay",
+      "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-w",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-webdl.png",
+      "isEnabled": true,
+      "name": "WebDL",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -170,6 +170,19 @@
     {
       "borderColor": "#FF858283",
       "groupId": "gv",
+      "id": "a-dv",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/vision.png",
+      "isEnabled": true,
+      "name": "DV",
+      "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gv",
       "id": "v-imax-e",
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/IMAX-enhanced.png",
       "isEnabled": true,
@@ -188,19 +201,6 @@
       "isEnabled": true,
       "name": "IMAX",
       "pattern": "(?i)^(?=.*\\bIMAX\\b)(?!.*enhanced)",
-      "tagColor": "#33FFFFFF",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "a-dv",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/vision.png",
-      "isEnabled": true,
-      "name": "DV",
-      "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
