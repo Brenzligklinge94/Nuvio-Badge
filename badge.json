@@ -121,7 +121,7 @@
       "groupId": "gv",
       "isEnabled": true,
       "pattern": "(?i)^(?=.*(?:\\b10[\\s._-]?bit\\b|\\bhi10p?\\b))",
-      "imageURL": "",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/10_bit.png",
       "tagColor": "#33FFFFFF",
       "borderColor": "#FF858283",
       "textColor": "#FFFFFF",
