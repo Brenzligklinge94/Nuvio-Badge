@@ -116,19 +116,6 @@
       "type": "filter"
     },
     {
-      "id": "gv-10bit",
-      "name": "10bit",
-      "groupId": "gv",
-      "isEnabled": true,
-      "pattern": "(?i)^(?=.*(?:\\b10[\\s._-]?bit\\b|\\bhi10p?\\b))",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/10_bit.png",
-      "tagColor": "#33FFFFFF",
-      "borderColor": "#FF858283",
-      "textColor": "#FFFFFF",
-      "tagStyle": "filled and bordered",
-      "type": "filter"
-    },
-    {
       "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-seadex",
@@ -217,6 +204,19 @@
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "id": "gv-10bit",
+      "name": "10bit",
+      "groupId": "gv",
+      "isEnabled": true,
+      "pattern": "(?i)^(?=.*(?:\\b10[\\s._-]?bit\\b|\\bhi10p?\\b))",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/10_bit.png",
+      "tagColor": "#33FFFFFF",
+      "borderColor": "#FF858283",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled and bordered",
       "type": "filter"
     },
     {
