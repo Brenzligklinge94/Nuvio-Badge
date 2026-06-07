@@ -3,6 +3,13 @@
     {
       "borderColor": "#FF858283",
       "color": "#FFBE01",
+      "id": "gs",
+      "isExpanded": true,
+      "name": "Seadex"
+    },
+    {
+      "borderColor": "#FF858283",
+      "color": "#FFBE01",
       "id": "gr",
       "isExpanded": true,
       "name": "Resolution"
@@ -39,12 +46,25 @@
   "filters": [
     {
       "borderColor": "#FF858283",
-      "groupId": "gv",
-      "id": "v-seadex",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-SeaDex.png",
+      "groupId": "gs",
+      "id": "v-seadex-best",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/seadex_best.png",
       "isEnabled": true,
-      "name": "SeaDex",
-      "pattern": "(?i)\\b(?:seadex|best[\\s._-]?release|alt[\\s._-]?(?:best[\\s._-]?)?release)\\b|ᴀʟᴛ ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ",
+      "name": "SeaDex Best",
+      "pattern": "(?i)\\b(?:seadex|best[\\s._-]?release)\\b|ʙᴇsᴛ ʀᴇʟᴇᴀsᴇ",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gs",
+      "id": "v-seadex-alt",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/seadex_alt.png",
+      "isEnabled": true,
+      "name": "SeaDex Alt",
+      "pattern": "(?i)\\b(?:alt[\\s._-]?(?:best[\\s._-]?)?release)\\b|ᴀʟᴛ ʀᴇʟᴇᴀsᴇ",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
