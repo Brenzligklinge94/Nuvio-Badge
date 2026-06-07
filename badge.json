@@ -129,7 +129,7 @@
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-bluray.png",
       "isEnabled": true,
       "name": "BluRay",
-      "pattern": "(?i)^(?=.*(?:bluray|blu-ray))(?!.*remux)",
+      "pattern": "(?i)^(?=.*(?:bluray|blu-ray|bd))(?!.*remux)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
