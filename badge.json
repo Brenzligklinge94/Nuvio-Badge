@@ -311,7 +311,7 @@
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/truehd.png",
       "isEnabled": true,
       "name": "TrueHD",
-      "pattern": "(?i)^(?=.*\\btrue[\\s._-]?hd\\b)(?!.*\\batmos\\b)",
+      "pattern": "(?i)^(?=.*true[\\s._-]?hd)(?!.*\\batmos\\b)",
       "tagColor": "#33FFFFFF",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
