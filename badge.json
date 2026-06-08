@@ -150,6 +150,19 @@
     },
     {
       "borderColor": "#FF858283",
+      "groupId": "gq",
+      "id": "q-wr",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/mono-webrip.png",
+      "isEnabled": true,
+      "name": "WebRip",
+      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
       "groupId": "gv",
       "id": "v-hdr10p",
       "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/HDR10Plus.png",
