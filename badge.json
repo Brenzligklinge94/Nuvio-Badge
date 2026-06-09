@@ -369,7 +369,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-
     {
       "borderColor": "#FF858283",
       "groupId": "ga",
@@ -385,9 +384,22 @@
     },
     {
       "borderColor": "#FF858283",
+      "groupId": "ga",
+      "id": "a-op",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/opus.png",
+      "isEnabled": true,
+      "name": "Opus",
+      "pattern": "(?i)opus",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF858283",
       "groupId": "gc",
       "id": "ch-71",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/7dot1.png",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/ch71.png",
       "isEnabled": true,
       "name": "7.1",
       "pattern": "(?i)(^|[^0-9])[7-8][. ][01](?![0-9])",
@@ -399,8 +411,21 @@
     {
       "borderColor": "#FF858283",
       "groupId": "gc",
+      "id": "ch-61",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/ch51.png",
+      "isEnabled": true,
+      "name": "6.1",
+      "pattern": "(?i)^(?=.*(^|[^0-9])6[. ][01](?![0-9]))(?!.*(^|[^0-9])[7-8][. ][01](?![0-9]))",
+      "tagColor": "#33FFFFFF",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    }
+    {
+      "borderColor": "#FF858283",
+      "groupId": "gc",
       "id": "ch-51",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/5dot1.png",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/ch51.png",
       "isEnabled": true,
       "name": "5.1",
       "pattern": "(?i)^(?=.*(^|[^0-9])5[. ][01](?![0-9]))(?!.*(^|[^0-9])[7-8][. ][01](?![0-9]))",
