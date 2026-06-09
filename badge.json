@@ -412,7 +412,7 @@
       "borderColor": "#FF858283",
       "groupId": "gc",
       "id": "ch-61",
-      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/ch51.png",
+      "imageURL": "https://raw.githubusercontent.com/Brenzligklinge94/Nuvio-Badge/main/images/badges/ch61.png",
       "isEnabled": true,
       "name": "6.1",
       "pattern": "(?i)^(?=.*(^|[^0-9])6[. ][01](?![0-9]))(?!.*(^|[^0-9])[7-8][. ][01](?![0-9]))",
